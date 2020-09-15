@@ -66,15 +66,15 @@ To make sure the database connection works for the application, open `.env` file
 
 ## Available Scripts
 
-### `yarn start`
+#### `yarn start`
 
 to start dev server. Dev server enables watch mode to detect your code change.
 
-### `yarn build`
+#### `yarn build`
 
 to build the project and generate bundle for production. The generated bundle file is located at `dist/bundle.prod.js`
 
-### `yarn test`
+#### `yarn test`
 
 to run Jest in watch mode. Jest will run test files and paths that matches the following pattern.
 
