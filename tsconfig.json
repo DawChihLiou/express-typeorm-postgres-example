@@ -21,7 +21,8 @@
       "@controller/*": ["src/controller/*"],
       "@utils/*": ["src/utils/*"],
       "@middlewares/*": ["src/middlewares/*"],
-      "@exceptions/*": ["src/exceptions/*"]
+      "@exceptions/*": ["src/exceptions/*"],
+      "@decorators/*": ["src/decorators/*"]
     }
   },
   "exclude": ["node_modules", "build", "coverage", "dist", "setupTests.ts"],

@@ -18,5 +18,6 @@ module.exports = {
     '@utils/(.*)': '<rootDir>/src/utils/$1',
     '@middlewares/(.*)': '<rootDir>/src/middlewares/$1',
     '@exceptions/(.*)': '<rootDir>/src/exceptions/$1',
+    '@decorators/(.*)': '<rootDir>/src/decorators/$1',
   },
 }

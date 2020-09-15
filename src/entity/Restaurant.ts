@@ -19,7 +19,7 @@ import {
   NotContains,
   ValidateNested,
 } from 'class-validator'
-import { IsBadgeAlignedWith } from '@utils/validation'
+import { IsBadgeAlignedWith } from '@decorators/IsBadgeAlignedWith'
 
 @Entity('restaurant')
 class Restaurant {

@@ -1,5 +1,5 @@
 import { Validator } from 'class-validator'
-import { IsBadgeAlignedWith } from './validation'
+import { IsBadgeAlignedWith } from './IsBadgeAlignedWith'
 
 const validator = new Validator()
 
