@@ -340,7 +340,7 @@ interface NotFoundResponse {
 
 ### Restaurant
 
-#### `GET /restaurant/:id`
+#### `GET /restaurants/:id`
 
 To get a single restaurant.
 
@@ -389,7 +389,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `PUT /restaurant/:id`
+#### `PUT /restaurants/:id`
 
 To update a single restaurant.
 
@@ -469,7 +469,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `DELETE /restaurant/:id`
+#### `DELETE /restaurants/:id`
 
 To delete a single restaurant.
 
@@ -518,7 +518,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `POST /restaurant/:id/booking`
+#### `POST /restaurants/:id/booking`
 
 To update a single restaurant.
 
