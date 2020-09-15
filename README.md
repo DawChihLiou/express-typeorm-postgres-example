@@ -8,6 +8,8 @@ An API server example built with:
 - [PostgreSQL](https://www.postgresql.org/)
 - [class-validator](https://github.com/typestack/class-validator)
 
+This example is a API service about chefs🧑‍🍳 and restaurants🥗 The service provides endpoints to see restaurants that a chef owns, create/update/delete a restaurant, and book a table at a restaurant.
+
 ## System Requirement
 
 - node >= 12
