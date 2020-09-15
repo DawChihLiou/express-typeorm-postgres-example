@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es6",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@entity/*": ["src/entity/*"],
+      "@controller/*": ["src/controller/*"],
+      "@utils/*": ["src/utils/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@exceptions/*": ["src/exceptions/*"]
+    }
+  },
+  "exclude": ["node_modules", "build", "coverage", "dist", "setupTests.ts"],
+  "include": ["**/*.ts"]
+}

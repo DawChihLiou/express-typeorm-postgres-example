@@ -1,0 +1,41 @@
+{
+  "name": "express-typeorm-postres-example",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "private": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "typescript-node-scripts start",
+    "build": "typescript-node-scripts build",
+    "test": "typescript-node-scripts test"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.6.3",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "typescript": "~3.7",
+    "typescript-node-scripts": "^3.1.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "class-validator": "^0.12.2",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.25"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
