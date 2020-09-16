@@ -29,10 +29,8 @@ class Restaurant {
   @Column('text')
   @IsString()
   @MinLength(10)
-  @NotContains('Free')
-  @NotContains('Offer')
-  @NotContains('Book')
-  @NotContains('Website')
+  @NotContains('Anger')
+  @NotContains('Sadness')
   public name: string
 
   @Column('int')

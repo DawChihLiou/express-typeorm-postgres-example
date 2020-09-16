@@ -270,20 +270,20 @@ _It is required to create an restaurant under a existed chef. Please use_ `POST 
 
 **Body**
 
-| property          | Type     | Optional | Description                                                                               |
-| ----------------- | -------- | -------- | ----------------------------------------------------------------------------------------- |
-| name              | `string` |          | more than 10 characters and cannot contain the words ["Free", "Offer", "Book", "Website"] |
-| rating            | `number` |          | integer. range between `0` and `5`                                                        |
-| category          | `string` |          | can only be one of ["fine-dinning", "street-food", "casual", "ethnic", "family-style"]    |
-| image             | `string` |          | url                                                                                       |
-| popularity        | `number` |          | integer. range between `0` and `1000`                                                     |
-| badge             | `string` |          | popularity <= 300: "awf", popularity <= 700: "meh", popularity > 700: "awesome"           |
-| availability      | `number` |          | integer                                                                                   |
-| location.city     | `string` |          |                                                                                           |
-| location.state    | `string` |          |                                                                                           |
-| location.country  | `string` |          |                                                                                           |
-| location.postCode | `string` |          | must be 5 characters                                                                      |
-| location.address  | `string` |          |                                                                                           |
+| property          | Type     | Optional | Description                                                                            |
+| ----------------- | -------- | -------- | -------------------------------------------------------------------------------------- |
+| name              | `string` |          | more than 10 characters and cannot contain the words ["Anger", "Sadness" ]             |
+| rating            | `number` |          | integer. range between `0` and `5`                                                     |
+| category          | `string` |          | can only be one of ["fine-dinning", "street-food", "casual", "ethnic", "family-style"] |
+| image             | `string` |          | url                                                                                    |
+| popularity        | `number` |          | integer. range between `0` and `1000`                                                  |
+| badge             | `string` |          | popularity <= 300: "awf", popularity <= 700: "meh", popularity > 700: "awesome"        |
+| availability      | `number` |          | integer                                                                                |
+| location.city     | `string` |          |                                                                                        |
+| location.state    | `string` |          |                                                                                        |
+| location.country  | `string` |          |                                                                                        |
+| location.postCode | `string` |          | must be 5 characters                                                                   |
+| location.address  | `string` |          |                                                                                        |
 
 **Response**
 
@@ -401,20 +401,20 @@ To update a single restaurant.
 
 **Body**
 
-| property          | Type     | Optional | Description                                                                               |
-| ----------------- | -------- | -------- | ----------------------------------------------------------------------------------------- |
-| name              | `string` | true     | more than 10 characters and cannot contain the words ["Free", "Offer", "Book", "Website"] |
-| rating            | `number` | true     | integer. range between `0` and `5`                                                        |
-| image             | `string` | true     | url                                                                                       |
-| category          | `string` | true     | can only be one of ["fine-dinning", "street-food", "casual", "ethnic", "family-style"]    |
-| popularity        | `number` | true     | integer. range between `0` and `1000`                                                     |
-| badge             | `string` | true     | popularity <= 300: "awf", popularity <= 700: "meh", popularity > 700: "awesome"           |
-| availability      | `number` | true     |                                                                                           |
-| location.city     | `string` | true     |                                                                                           |
-| location.state    | `string` | true     |                                                                                           |
-| location.country  | `string` | true     |                                                                                           |
-| location.postCode | `string` | true     | must be 5 characters                                                                      |
-| location.address  | `string` | true     |                                                                                           |
+| property          | Type     | Optional | Description                                                                            |
+| ----------------- | -------- | -------- | -------------------------------------------------------------------------------------- |
+| name              | `string` | true     | more than 10 characters and cannot contain the words ["Anger", "Sadness"]              |
+| rating            | `number` | true     | integer. range between `0` and `5`                                                     |
+| image             | `string` | true     | url                                                                                    |
+| category          | `string` | true     | can only be one of ["fine-dinning", "street-food", "casual", "ethnic", "family-style"] |
+| popularity        | `number` | true     | integer. range between `0` and `1000`                                                  |
+| badge             | `string` | true     | popularity <= 300: "awf", popularity <= 700: "meh", popularity > 700: "awesome"        |
+| availability      | `number` | true     |                                                                                        |
+| location.city     | `string` | true     |                                                                                        |
+| location.state    | `string` | true     |                                                                                        |
+| location.country  | `string` | true     |                                                                                        |
+| location.postCode | `string` | true     | must be 5 characters                                                                   |
+| location.address  | `string` | true     |                                                                                        |
 
 **Response**
 
