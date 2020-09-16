@@ -8,6 +8,8 @@ An API server example built with:
 - [PostgreSQL](https://www.postgresql.org/)
 - [class-validator](https://github.com/typestack/class-validator)
 
+This example is a API service about chefs🧑‍🍳 and restaurants🥗 The service provides endpoints to see restaurants that a chef owns, create/update/delete a restaurant, and book a table at a restaurant.
+
 ## System Requirement
 
 - node >= 12
@@ -66,15 +68,15 @@ To make sure the database connection works for the application, open `.env` file
 
 ## Available Scripts
 
-### `yarn start`
+#### `yarn start`
 
 to start dev server. Dev server enables watch mode to detect your code change.
 
-### `yarn build`
+#### `yarn build`
 
 to build the project and generate bundle for production. The generated bundle file is located at `dist/bundle.prod.js`
 
-### `yarn test`
+#### `yarn test`
 
 to run Jest in watch mode. Jest will run test files and paths that matches the following pattern.
 
@@ -340,7 +342,7 @@ interface NotFoundResponse {
 
 ### Restaurant
 
-#### `GET /restaurant/:id`
+#### `GET /restaurants/:id`
 
 To get a single restaurant.
 
@@ -389,7 +391,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `PUT /restaurant/:id`
+#### `PUT /restaurants/:id`
 
 To update a single restaurant.
 
@@ -469,7 +471,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `DELETE /restaurant/:id`
+#### `DELETE /restaurants/:id`
 
 To delete a single restaurant.
 
@@ -518,7 +520,7 @@ interface NotFoundResponse {
 }
 ```
 
-#### `POST /restaurant/:id/booking`
+#### `POST /restaurants/:id/booking`
 
 To update a single restaurant.
 
